@@ -1,6 +1,7 @@
 export const heroes = [
   {
       'id': 'dc-batman',
+      'id': 'dc-batman',
       'superhero':'Batman', 
       'publisher':'DC Comics', 
       'alter_ego':'Bruce Wayne',
@@ -79,14 +80,14 @@ export const heroes = [
       'first_appearance':'Flash Comics #86',
       'characters':'Dinah Drake, Dinah Lance'
   },
-  {
-      'id': 'marvel-spider',
-      'superhero':'Spider Man', 
-      'publisher':'Marvel Comics', 
-      'alter_ego':'Peter Parker',
-      'first_appearance':'Amazing Fantasy #15',
-      'characters':'Peter Parker'
-  },
+//   {
+//       'id': 'marvel-spider',
+//       'superhero':'Spider Man', 
+//       'publisher':'Marvel Comics', 
+//       'alter_ego':'Peter Parker',
+//       'first_appearance':'Amazing Fantasy #15',
+//       'characters':'Peter Parker'
+//   },
   {
       'id': 'marvel-miles',
       'superhero':'Spider Man', 
