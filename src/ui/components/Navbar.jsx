@@ -56,6 +56,7 @@ export const Navbar = () => {
         <ul className="navbar-nav ml-auto">
           <span 
             className='nav-item nav-link text-primary'
+            aria-label="span"
           >
             { user?.name }
           </span>
