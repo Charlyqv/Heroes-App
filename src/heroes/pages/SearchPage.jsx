@@ -67,7 +67,7 @@ export const SearchPage = () => {
                 && <div className="alert alert-danger">No hero with <b>{ q }</b></div>
           } */}
 
-          <div className="alert alert-primary" style={{ display: showSearch ? '' : 'none' }}>
+          <div aria-label="alert-danger" className="alert alert-primary" style={{ display: showSearch ? '' : 'none' }}>
             Search a hero
           </div>
 

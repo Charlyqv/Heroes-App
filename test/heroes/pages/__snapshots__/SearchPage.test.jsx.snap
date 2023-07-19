@@ -40,6 +40,7 @@ exports[`Pruebas en <SearchPage /> debe de mostrarse correctamente con valores p
       </h4>
       <hr />
       <div
+        aria-label="alert-danger"
         class="alert alert-primary"
       >
         Search a hero
