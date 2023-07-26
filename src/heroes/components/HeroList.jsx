@@ -16,6 +16,8 @@ export const HeroList = ({ publisher }) => {
             { ...hero }/>
         ))
       }
+      <div className="color__block__right"></div>
+      {/* <div className="color__block__left"></div> */}
     </div>
   )
 }

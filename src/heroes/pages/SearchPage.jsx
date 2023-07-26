@@ -80,8 +80,8 @@ export const SearchPage = () => {
               <HeroCard key={ hero.id } { ...hero }/>
             ))
           }
-
         </div>
+      <div className="color__block__right"></div>
 
       </div>
 

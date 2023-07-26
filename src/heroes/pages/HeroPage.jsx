@@ -1,6 +1,7 @@
 import { Navigate, useNavigate, useParams } from "react-router-dom"
 import { getHeroById } from "../helpers";
 import { useMemo } from "react";
+import '../../ui/App.css';
 
 
 export const HeroPage = () => {
@@ -48,6 +49,11 @@ export const HeroPage = () => {
           Regresar
         </button>
       </div>
+
+      <div className="color__block__right"></div>
+      {/* <div className="color__block__left"></div> */}
     </div>
+
+    
   )
 }
