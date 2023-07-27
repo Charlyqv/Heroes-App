@@ -80,22 +80,22 @@ export const heroes = [
       'first_appearance':'Flash Comics #86',
       'characters':'Dinah Drake, Dinah Lance'
   },
-//   {
-//       'id': 'marvel-spider',
-//       'superhero':'Spider Man', 
-//       'publisher':'Marvel Comics', 
-//       'alter_ego':'Peter Parker',
-//       'first_appearance':'Amazing Fantasy #15',
-//       'characters':'Peter Parker'
-//   },
   {
-      'id': 'marvel-miles',
+      'id': 'marvel-spider',
       'superhero':'Spider Man', 
       'publisher':'Marvel Comics', 
-      'alter_ego':'Carlos Villaseñor',
-      'first_appearance':'Amazing Fantasy #98',
-      'characters':'Carlos Villaseñor'
+      'alter_ego':'Peter Parker',
+      'first_appearance':'Amazing Fantasy #15',
+      'characters':'Peter Parker'
   },
+//   {
+//       'id': 'marvel-miles',
+//       'superhero':'Spider Man', 
+//       'publisher':'Marvel Comics', 
+//       'alter_ego':'Carlos Villaseñor',
+//       'first_appearance':'Amazing Fantasy #98',
+//       'characters':'Carlos Villaseñor'
+//   },
   {
       'id': 'marvel-captain',
       'superhero':'Captain America', 
