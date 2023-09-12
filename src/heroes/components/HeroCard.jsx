@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import '../../ui/App.css';
 
 const CharactersByHero = ({ alter_ego, characters }) => {
   // if ( alter_ego === characters ) return (<></>);
@@ -18,7 +19,8 @@ export const HeroCard = ({
   characters,
 }) => {
 
-  const heroImageUrl = `/assets/heroes/${ id }.jpg`;
+  // const heroImageUrl = `/assets/heroes/${ id }.jpg`;
+  const heroImageUrl = `/heroes/${ id }.jpg`;
 
   // const charactersByHero = <p>{ characters } </p>;
 
