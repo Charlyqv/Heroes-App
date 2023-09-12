@@ -2,6 +2,7 @@ import { Navigate, useNavigate, useParams } from "react-router-dom"
 import { getHeroById } from "../helpers";
 import { useMemo } from "react";
 import '../../ui/App.css';
+import '../../heroes/pages/style.css';
 
 
 export const HeroPage = () => {
@@ -23,12 +24,19 @@ export const HeroPage = () => {
   return (
     <div className="row mt-5">
       <div className="col-4">
-        <img 
-          // src={ `/assets/heroes/${ id }.jpg` }
-          src={ `/heroes/${ id }.jpg` }
-          alt={ hero.superhero }
-          className="img-thumbnail animate__animated animate__flipInX"
-        />
+        <article>
+          <img 
+            // src={ `/assets/heroes/${ id }.jpg` }
+            src={ `/heroes/${ id }.jpg` }
+            alt={ hero.superhero }
+            // className="img-thumbnail animate__animated animate__flipInX"
+          />
+          <img 
+            // src={ `/assets/heroes/${ id }.jpg` }
+            src={ `/heroes1/${ id }.png` }
+            // className="img-thumbnail animate__animated animate__flipInX"
+          />
+        </article>
       </div>
 
       <div className="col-8 animate__animated animate__lightSpeedInRight">
